@@ -1,0 +1,30 @@
+table, tr, td {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 25px;
+}
+
+tr, td {
+    width: 40px;
+    height: 40px;
+}
+
+button {
+    margin: 20px auto;
+    padding: 0 40px;
+    background-color: #5dcf60;
+    color: #fff;
+    font-weight: 800;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    transition: all 0.25s ease-in-out;
+    white-space: nowrap;
+    border: none;
+    text-decoration: none;
+}
