@@ -12,19 +12,18 @@ tr, td {
 }
 
 button {
-    margin: 20px auto;
+    margin: 20px calc((100vw - 140px)/2);
     padding: 0 40px;
-    background-color: #5dcf60;
-    color: #fff;
     font-weight: 800;
     height: 50px;
+    width: 130px;
     line-height: 50px;
-    display: inline-block;
     border-radius: 4px;
     text-transform: uppercase;
     letter-spacing: 0.75px;
-    transition: all 0.25s ease-in-out;
-    white-space: nowrap;
-    border: none;
-    text-decoration: none;
+    border: 2px solid darkgrey;
+}
+
+.checked {
+    background-color: #c2e7ff;
 }
